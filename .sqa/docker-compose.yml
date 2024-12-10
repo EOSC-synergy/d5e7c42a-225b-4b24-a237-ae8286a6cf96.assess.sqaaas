@@ -1,5 +1,5 @@
 services:
-  qc.fair_trippy-dandelion-vole:
+  qc.fair_shaky-chartreuse-schnauzer:
     command: sleep 6000000
     image: eoscsynergy/sqaaas-fair_eva:2.0.0
     volumes:

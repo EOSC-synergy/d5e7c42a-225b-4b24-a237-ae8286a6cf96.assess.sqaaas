@@ -13,7 +13,7 @@ sqa_criteria:
       this_repo:
         commands:
         - fair-eva.py --id d5e7c42a-225b-4b24-a237-ae8286a6cf96 --plugin epos --repository
-          http://digital.csic.es/dspace-oai/request --api-endpoint http://localhost:9090/v1.0/rda/rda_all
-          --json
-        container: qc.fair_trippy-dandelion-vole
+          https://ics-c.epos-ip.org/development/k8s-epos-deploy/dt-geo/api/v1 --api-endpoint
+          http://localhost:9090/v1.0/rda/rda_all --json
+        container: qc.fair_shaky-chartreuse-schnauzer
 timeout: 5400
